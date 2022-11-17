@@ -8,7 +8,7 @@ public class EuroTest {
     @Test
     public void testGetValore() {
         final Euro verifica = new Euro (60);
-        assertEquals (6000,(int)verifica.getValore ());
+        assertEquals (6000,verifica.getValore ());
     }
 
     @Test
