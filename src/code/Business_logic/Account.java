@@ -11,12 +11,12 @@ public class Account
 
    // Account constructor initializes attributes
    public Account( int theAccountNumber, int thePIN, 
-      double theAvailableBalance, double theTotalBalance )
+      Euro theAvailableBalance, Euro theTotalBalance )
    {
       accountNumber = theAccountNumber;
       pin = thePIN;
-      availableBalance = new Euro((double) theAvailableBalance);
-      totalBalance = new Euro((double)theTotalBalance);
+      availableBalance = theAvailableBalance;
+      totalBalance = theTotalBalance;
    } // end Account constructor
 
    // determines whether a user-specified PIN matches PIN in Account
@@ -41,16 +41,16 @@ public class Account
    } // end method getTotalBalance
 
    // credits an amount to the account
-   public void credit( double amount )
+   public void credit(Euro amount)
    {
-      totalBalance.somma(new Euro(amount)); // add to total balance
+      totalBalance.somma(amount); // add to total balance
    } // end method credit
 
    // debits an amount from the account
-   public void debit( double amount )
+   public void debit(Euro amount)
    {
-      availableBalance.sottrai(new Euro(amount)); // subtract from available balance
-      totalBalance.sottrai(new Euro(amount)); // subtract from total balance
+      availableBalance.sottrai(amount); // subtract from available balance
+      totalBalance.sottrai(amount); // subtract from total balance
    } // end method debit
 
    // returns account number
