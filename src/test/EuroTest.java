@@ -3,7 +3,9 @@ import code.Business_logic.*;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
+/*
+* Test per verficare i valori e i modificatori della classe Euro
+*/
 public class EuroTest {
     @Test
     public void testGetValore() {
