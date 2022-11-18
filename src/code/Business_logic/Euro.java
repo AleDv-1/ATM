@@ -46,8 +46,7 @@ public class Euro {
 		return (double)valore/100 +" euro";
 	}
 
-	public void SetValore(long valore){
-		this.valore= valore;
-
+	public void setValore(long valore){
+		this.valore = valore;
 	}
 }
