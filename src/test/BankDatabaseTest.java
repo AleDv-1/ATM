@@ -2,7 +2,6 @@
 package test;
 import Business_logic.*;
 import Database.*;
-import GUI.*;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
