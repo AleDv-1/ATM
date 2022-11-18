@@ -1,4 +1,4 @@
-package code.Business_logic;
+package Business_logic;
 // CashDispenser.java
 // Represents the cash dispenser of the ATM
 

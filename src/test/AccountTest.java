@@ -2,7 +2,7 @@ package test;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import code.Business_logic.*;
+import Business_logic.*;
 
 public class AccountTest {
     /*

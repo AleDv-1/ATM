@@ -1,8 +1,8 @@
-package code.GUI;
+package GUI;
 // Screen.java
 // Represents the screen of the ATM
 
-import code.Business_logic.Euro;
+import Business_logic.Euro;
 
 public class Screen
 {
