@@ -1,4 +1,4 @@
-package code.GUI;
+package GUI;
 // Keypad.java
 // Represents the keypad of the ATM
 import java.util.Scanner; // program uses Scanner to obtain user input
