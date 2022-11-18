@@ -1,5 +1,5 @@
 package test;
-import code.Business_logic.*;
+import Business_logic.*;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
