@@ -1,4 +1,4 @@
-package code.Business_logic;
+package Business_logic;
 // Account.java
 // Represents a bank account
 

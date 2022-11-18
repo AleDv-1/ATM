@@ -1,4 +1,4 @@
-package code.GUI;
+package GUI;
 // ATM.java
 // Represents an automated teller machine
 
