@@ -1,8 +1,8 @@
 
 package test;
-import code.Business_logic.*;
-import code.Database.*;
-import code.GUI.*;
+import Business_logic.*;
+import Database.*;
+import GUI.*;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
