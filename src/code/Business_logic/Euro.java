@@ -45,4 +45,9 @@ public class Euro {
 	public String stampa(){
 		return (double)valore/100 +" euro";
 	}
+
+	public void SetValore(long valore){
+		this.valore= valore;
+
+	}
 }
