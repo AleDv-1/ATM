@@ -7,21 +7,21 @@ import org.junit.Test;
 public class EuroTest {
     @Test
     public void testGetValore() {
-        final Euro verifica = new Euro (60);
+        Euro verifica = new Euro (60);
         assertEquals (6000,verifica.getValore ());
     }
 
     @Test
     public void testMinoreDi() {
-        final Euro a = new Euro (5);
-        final Euro b = new Euro (2);
+        Euro a = new Euro (5);
+        Euro b = new Euro (2);
         assertEquals(true,b.minoreDi (a));
     }
 
     @Test
     public void testSomma() {
-        final Euro a = new Euro (10);
-        final Euro b = new Euro (5);
+        Euro a = new Euro (10);
+        Euro b = new Euro (5);
         b.somma (a);
         assertEquals(1500,b.getValore());
     }
@@ -29,8 +29,8 @@ public class EuroTest {
     @Test
     public void testSottrai() {
 
-        final Euro a = new Euro (10);
-        final Euro b = new Euro (5);
+        Euro a = new Euro (10);
+        Euro b = new Euro (5);
         a.sottrai(b);
         assertEquals(500,b.getValore());
     }
@@ -38,16 +38,16 @@ public class EuroTest {
     @Test
     public void testStampa() {
 
-        final Euro a = new Euro (50);
-        final String k = "50.0 euro";
+        Euro a = new Euro (50);
+        String k = "50.0 euro";
         assertEquals(k, a.stampa());
     }
 
     @Test
     public void testUgualeA() {
 
-        final Euro a = new Euro (5);
-        final Euro b = new Euro (5);
+        Euro a = new Euro (5);
+        Euro b = new Euro (5);
         assertEquals(true,b.ugualeA(a));
     }
 }
